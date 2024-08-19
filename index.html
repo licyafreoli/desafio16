@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Moeda</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>CONVERSÃO DE MOEDA</h1>
+        <hr>
+
+        <form id="formConversao">
+
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" name="valor" step="0.01" required>
+
+            <label for="moedaBase">Moeda Base:</label>
+            <input type="text" id="moedaBase" name="moedaBase" required>
+
+            <label for="moedaDestino">Moeda de Destino:</label>
+            <input type="text" id="moedaDestino" name="moedaDestino" required>
+
+            <button type="submit">Converter</button>
+
+        </form>
+
+        <div class="resultado" id="resultado">
+            
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
